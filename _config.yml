@@ -1,9 +1,9 @@
 # Site settings
-title: FIRESTUDIO
-SEOTitle: FIRE STUDIO | 圣火科技
+title: 吴旭淳nmsl
+SEOTitle: Guiwow | 吴旭淳
 header-img: img/home-bg.jpg
 email: 1330682366@qq.com
-description: "这里是FireStudio，与你燃烧未来 | MADE BY FIREHY（FlameHydrogen）"
+description: "Vape小学103班吴旭淳傻逼东西开你M呢 | 傻逼"
 keyword: "FIRESTUDIO, FireHY, FireHY, FireHY, FireHY, @FireHY, FireHY, 网络科技, 网络文化媒体传播, 网络安全, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
 url: "https://firehy.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
+sidebar-about-description: "要做一个有 swag 的黑客 <br> React Team @ Meta"
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
