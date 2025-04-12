@@ -1,9 +1,9 @@
 # Site settings
-title: 吴旭淳nmsl
-SEOTitle: Guiwow | 吴旭淳
+title: FIRE STUDIO
+SEOTitle: FIRESTUDIO | 圣火科技
 header-img: img/home-bg.jpg
 email: 1330682366@qq.com
-description: "Vape小学103班吴旭淳傻逼东西开你M呢 | 傻逼"
+description: "FIRESTUDIO | 圣火科技"
 keyword: "FIRESTUDIO, FireHY, FireHY, FireHY, FireHY, @FireHY, FireHY, 网络科技, 网络文化媒体传播, 网络安全, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
 url: "https://firehy.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
+weibo_username: FireHY
+zhihu_username: FireHY
+github_username: FireHY
+twitter_username: FireHY
+#facebook_username:  FireHY
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: Flame Xu
 
 # Netease settings
 netease_comment: false
@@ -70,12 +70,12 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: FireHY.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的黑客 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Flame圣火科技 与你燃烧未来 <br> React Team @ Meta"
+sidebar-avatar: https://github.com/FireHY.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -91,8 +91,8 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
+    { title: "FlameXu", href: "https://firehy.github.io" },
+    { title: "FireXF玄风", href: "https://ebnbin.dev/" },
     { title: "Kun Qian", href: "http://kunq.me" },
     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
     { title: "SmdCn", href: "http://blog.smdcn.net" },
