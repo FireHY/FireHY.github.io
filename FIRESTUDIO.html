@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- FireHY[FlameXu徐]@版权所有 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to TechnoFlame</title>
+    <style>
+        *{box-sizing: border-box;}
+        body{
+            background: #000;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-shadow: 0px 0px 80px;
+        }
+        h1{
+            margin: 0;
+            padding: 0;
+            color: #0ff;
+        }
+        a{color: #fff;}
+        /* 盒子↓ */
+        p{
+            margin: 0;
+        }
+        .box{
+            /* 盒子宽度↓ ---最好别改*/
+            width: 700px;
+            /* 让视频居中对齐↓---最好别动 */
+            text-align: center;
+            /* border: 1px solid #f00; */
+            color: #fff;
+            
+            position: absolute;
+            margin: 20px auto 0;
+            top: 20px;
+            left: 0;
+            right: 0;
+        }
+        /* 图片样式↓ */
+
+        img{
+            /* 视频宽度↓ ---最好不要大于上面盒子的宽度*/
+            width: 240px;
+            height: 240px;
+            /* 灰色的描边↓ ---px是粗细 solid是实线 #555是颜色代码 可以百度html颜色代码修改*/
+            border: 2px solid #222;
+            /* 图片的圆角 */
+            border-radius: 5px;
+            /* 动画时间 */
+            transition: 0.8s;
+        }
+        .img2:hover{border: 2px solid #980b18}
+
+        .box>div{
+            padding: 20px;
+            /* border: 1px solid #f00; */
+        }
+        .szj{
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            padding: 5px;
+            border: 1px solid #eee;
+            background-color: rgb(0,0,0,0.7)
+        }
+        .yl{
+            display: inline;
+            border-bottom:1px dotted #0ff;
+        }
+        .yl a{
+            text-decoration: none;
+            color:#c6d491;
+            
+        }
+        .yl span{
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="box">
+        <!-- 图片部分 -->
+        <img class="img2" src="login/1/1.jpg" alt="">
+
+        <div class="text">
+            <h1>FIRE STUDIO圣火科技</h1>
+
+            <br>
+
+            <p style="color: #0ff">2024-2027统一战线①ing...</p>
+            <a href="https://firehy.github.io" class="glow" style="color: #f00; font-size:21px;">点击进入FIRESTUDIO</a>
+<br><br>
+
+            <p class="glow" style="color: #f00; font-size:21px;">Flame圣火科技与你燃烧未来！</p>
+            <p class="glow" style="color: #f00; font-size:10px;">Fight for Future,Fire Future!!!</p>
+            <br>
+
+            <br><br>
+            <P class="glow">MainDirection:信息媒体文化传播+计算机网络科技软件工程项目</P>
+                    <pre>
+
+  
+  游戏开发 软件工程 BiliBili  Vue架构 人工智能 渗透测试 新媒体
+  
+   网络空间安全 C++ Python Java后端 web前端 UnrealEngine C#
+           <p class="glow" style="color: #f00; font-size:10px;">在此鸣谢web开发技术支持:FlameXu(FireHY) </p>
+  </pre>
+<br><br><br><br>
+            
+
+    
+
+
+    <!-- 音乐部分 -->
+
+ 
+ 
+    <div id="aplayer" class="aplayer" data-autoplay="true"  data-id="2661949255" data-server="netease" data-type="song" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#F58EA8"></div>
+    <link rel="stylesheet" href="https://syycdn.netlify.app/css/APlayer.min.css">
+    <script src="https://syycdn.netlify.app/js/APlayer.min.js"></script>
+    <script src="https://syycdn.netlify.app/js/APlayer.min.js"></script>
+    <script src="https://syycdn.netlify.app/js/Meting.min.js"></script>
+    <script src="https://syycdn.netlify.app/js/v3.js";></script>
+</script>
+
+    <!-- 以下js -->
+
+
+    <script>
+    var canvas = document.getElementById('canvas');
+		var ctx = canvas.getContext('2d');
+
+
+		canvas.height = window.innerHeight;
+		canvas.width = window.innerWidth;
+        // 下面的代用名就是代码雨的文字
+		var texts = 'FIRE STUDIO'.split('');
+
+		var fontSize = 16;
+		var columns = canvas.width/fontSize;
+		// 用于计算输出文字时坐标，所以长度即为列数
+		var drops = [];
+		//初始值
+		for(var x = 0; x < columns; x++){
+			drops[x] = 1;
+		}
+
+		function draw(){
+			//让背景逐渐由透明到不透明
+			ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+			ctx.fillRect(0, 0, canvas.width, canvas.height);
+			//文字颜色
+			ctx.fillStyle = '#0F0';
+			ctx.font = fontSize + 'px arial';
+			//逐行输出文字
+			for(var i = 0; i < drops.length; i++){
+				var text = texts[Math.floor(Math.random()*texts.length)];
+				ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+
+				if(drops[i]*fontSize > canvas.height || Math.random() > 0.95){
+					drops[i] = 0;
+				}
+
+				drops[i]++;
+			}
+		}
+	setInterval(draw, 33);
+</script>
+</body>
+</html>
